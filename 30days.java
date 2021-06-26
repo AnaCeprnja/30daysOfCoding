@@ -1,4 +1,3 @@
-//Day 0: Hello, World.
 
 import java.io.*;
 import java.util.*;
@@ -6,6 +5,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+//Day 0: Hello, World.
 public class Solution {
    public static void main(String[] args) {
       Scanner scan = new Scanner(System.in); // use the Scanner class to read from stdin
