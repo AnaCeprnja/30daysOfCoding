@@ -3,6 +3,8 @@
 #include <math.h>
 #include <stdlib.h>
 
+// Day 0: Hello, World.
+
 int main() {
     // Declare a variable named 'input_string' to hold our input.
     char input_string[105]; 
