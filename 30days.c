@@ -4,18 +4,14 @@
 #include <stdlib.h>
 
 // Day 0: Hello, World.
-
 int main() {
-    // Declare a variable named 'input_string' to hold our input.
-    char input_string[105]; 
-    
-    // Read a full line of input from stdin and save it to our variable, input_string.
-    scanf("%[^\n]", input_string); 
-    
-    // Print a string literal saying "Hello, World." to stdout using printf.
-    printf("Hello, World.\n");
-    
-    // TODO: Write a line of code here that prints the contents of input_string to stdout.
-    
-    return 0;
+   char inputString[105]; // declare a variable to hold our input
+   scanf ("%[^\n]%*c", inputString); // get a line of input from stdin and save it to our variable
+  
+   // Your first line of output goes here
+   printf("Hello, World.\n");
+
+   printf("%s\n",inputString);
+
+   return 0;
 }
